@@ -1,11 +1,14 @@
 
 public class CastingPrimitive {
     /**
-     * Casting is the conversion of one type to another. It exists for both primitive and object types.
-     * Casting a double, which is a number with decimals, to an int, which is a number without decimals, will eliminate
+     * Casting is the conversion of one type to another. It exists for both primitive and object 
+     types.
+     * Casting a double, which is a number with decimals, to an int, which is a number without 
+     decimals, will eliminate
      * the decimal portion of the number.
      *
-     * If you try to just return d without changes, the method will not compile because d needs to be converted
+     * If you try to just return d without changes, the method will not compile because d needs to 
+     be converted
      * to an int first to reflect the int return type.
      *
      * For example: int a = (int) 3.9;
@@ -16,6 +19,7 @@ public class CastingPrimitive {
      * @return the int form of d.
      */
     public int castToInt(double d){
-        return 0;
+        int a = (int)d;
+        return a;
     }
 }
